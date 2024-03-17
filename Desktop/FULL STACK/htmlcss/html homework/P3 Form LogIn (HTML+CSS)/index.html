@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Isuu</title>
+</head>
+<body>
+    <header>
+        <a href="#signIn">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Issuu_logo.svg/2560px-Issuu_logo.svg.png" alt="Isuu logo">
+        </a>
+        <div>
+            <ul>
+                <li><h5>Already a user?</h5></li>
+                <li><a href="signIn"><h5>Sign in</h5></a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <h4>Create an Issu account.</h4>
+        <section id="signInGoogleFacebook">
+            <a href="#signInGoogle">
+                <img src="#googleLogo" alt="sign in with google">
+            </a>
+            <a href="#signInFacebook">
+                <img src="#facebookLogo" alt="sign in with facebook">
+            </a>
+        </section>
+        <section>
+            or with email
+            <form action="/email" method="post">
+                <fieldset>
+                  <legend>Email</legend>
+                  <label for="mail">Email</label>
+                  <input type="email" name="email" id="email" placeholder="e.g: john.doe@email.com" required>
+                </fieldset>
+                <fieldset>
+                    <legend>Password</legend>
+                    <label for="password">Password:</label>
+                    <input type="password" name="pass" id="pass" minlength="11" required>
+                </fieldset>
+              </form>
+        </section>
+    </main>
+    
+</body>
+</html>
