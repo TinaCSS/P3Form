@@ -1,0 +1,27 @@
+{
+    "selfWatering" : true,
+    "maintenance" : "low",
+    "origin" : "native",
+    "follage" : "evergreen",
+    "fruit" : false,
+    "alergens" : ["urticant", "flowers"],
+    "parks": ["66154c69b4819400d80a4d63"],
+    "greenLanes": ["66154e8cf3514325ed1e48a4"]
+}
+{    
+    "pavement" : "gravel",
+    "waterOutlets" : "none",
+    "waterBodies" : "fountain",
+    "recreation" : true,
+    "dogPark" : false,
+    "sportsArea" : false,
+    "shops" : true
+}
+{
+    "class" : "pedestrian",
+    "length" : 88,
+    "width" : 500,
+    "bench" : 5,
+    "alcorque" : "cover",
+    "bikeLane" : true
+}
