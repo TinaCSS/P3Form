@@ -1,0 +1,67 @@
+body {
+  font-family: monospace;
+  background-color: #0400ff;
+  width: 100%; 
+  max-width: 100%;
+  overflow-x: hidden;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+  color: #ffffff;
+}
+
+h2 {
+  color: #ffffff;
+  text-align: center;
+  display: flex;
+}
+
+.centrate {
+  max-width: 100%;
+}
+
+.b-grid-father {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 90%;
+}
+
+.b-grid-son-right {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  border: 1px solid white;
+}
+
+.bgrid-son-left {
+  width: 30%;
+  display: flex;
+  align-content: center;
+  border: 1px solid white;
+}
+
+.b-square {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #0400ff;
+  background-image: url("exercise-2/bg.jpg");
+  background-size: cover;
+}
+
+.b-grid {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.b-mole {
+  background-image: url("exercise-2/mole.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+}
